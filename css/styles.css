@@ -18,16 +18,16 @@ a {
 .header-navigation {
 }
 .header-navigation-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-navigation-logo-blue {
-  color: #4d5ae5;
+.header-navigation-logo-span {
+  color: #2e2f42;
 }
 .header-navigation-list {
 }
@@ -44,7 +44,12 @@ a {
   color: #404bbf;
   text-decoration: underline;
 }
+.header-navigation-link:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
 .header-address {
+  font-style: normal;
 }
 .header-address-list {
 }
@@ -58,6 +63,9 @@ a {
   letter-spacing: 0.02em;
 }
 .header-address-link:hover {
+  color: #404bbf;
+}
+.header-address-link:focus {
   color: #404bbf;
 }
 /* Hero */
@@ -84,23 +92,15 @@ a {
 .hero-btn:hover {
   background-color: #404bbf;
 }
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 /* Benefits */
 .benefits {
 }
 .benefits-title {
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .benefits-list {
 }
 .benefits-item {
@@ -133,6 +133,7 @@ a {
 .team-list {
 }
 .team-item {
+  background-color: #fff;
 }
 .team-images {
 }
@@ -172,7 +173,7 @@ a {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1, 2;
+  line-height: 1, 12;
   letter-spacing: 0.02em;
 }
 .portfolio-item-text {
@@ -185,16 +186,16 @@ a {
   background-color: #2e2f42;
 }
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo-blue {
-  color: #4d5ae5;
+.footer-logo-span {
+  color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
